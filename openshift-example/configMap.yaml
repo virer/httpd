@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: httpd-homepage
+  namespace: httpd-demo
+data:
+  index.html: <html><body><center><h2><br><br><br>Hello World !</h2></center></body></html>
+
